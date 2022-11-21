@@ -1,8 +1,76 @@
 body{
 	margin: 0;
-	background: green;
+	background: black;
 }
-H1{
-	color: orange;
+header{
+	background: Turquoise;
+	width: 768px;
+	height: 150px;
 	margin: auto;
+}
+.flex-container{
+	justify-content: center;
+	display: inline-flex;
+}
+.nav{
+	flex: item;
+	background: LightSeaGreen;
+	width: 300px;
+	height: 700px;
+}
+.cub1{
+	background: yellow;
+	width: 290px;
+	height: 50px;
+	margin: 5px;
+}
+.content{
+	width: 468px;
+	height: 700px;
+	background: white;
+}
+.cub2{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	opacity: 50%;
+	background: blue;
+	top: 50%;
+	left: 50%;
+}
+footer{
+	margin: auto;
+	background: white;
+	height: 80px;
+	width: 768px;
+	display: flex;
+}
+
+.box1{
+	background: green;
+	height: 150px;
+	width: 100%;
+}
+.box2{
+	background: seagreen;
+	height: 150px;
+	width: 100%;
+}
+.box3{
+	background: darkseagreen;
+	height: 150px;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 768px){
+	header{
+		width: 100%;
+	}
+	footer{
+		flex-direction: column;
+	}
+	.flex-container{
+		flex-direction: column;
+	}
 }
