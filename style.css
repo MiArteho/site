@@ -28,7 +28,7 @@ header{
 }
 
 p{
-	text-indent: 5px;
+	text-indent: 15px;
 }
 .content{
 	width: 100%;
@@ -39,12 +39,10 @@ p{
 .cub2{
 	width: 70px;
 	height: 70px;
-	opacity: 45%;
-	background: blue;
-	font-size: 13px;
-	float: left;
-	margin: auto;
-
+	opacity: 85%;
+	background: royalblue;
+	position: absolute;
+	margin: 190px 350px;
 }
 footer{
 	margin: auto;
@@ -96,5 +94,9 @@ footer{
 	.cub1{
 		width: 19%;
 		height: 35px;
+	}
+	.cub2{
+		margin: 190px 50%;
+		position: absolute;
 	}
 }
